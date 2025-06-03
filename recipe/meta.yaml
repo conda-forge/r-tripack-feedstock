@@ -1,4 +1,4 @@
-{% set version = "1.3-9.2" %}
+{% set version = "1.3-9.3" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/tripack_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/tripack/tripack_{{ version }}.tar.gz
-  sha256: 3b2f44c04eb03eb88a6fe80b5017ee321a822ab4f4f0fb59f21880683195c946
+  sha256: 40ea209cdc8be3806722935e877ade4c9c1605fccf07c785b78dbe6c69563576
 
 build:
   number: 0
